@@ -9,7 +9,7 @@ A lightweight, real-time system monitoring tool written in Bash
 
 </div>
 
-Orange provides a Terminal User Interface (TUI) to visualize critical system metrics, resource utilization, and service health without the overhead of complex monitoring frameworks. [1](#2-0) 
+Orange provides a Terminal User Interface (TUI) to visualize critical system metrics, resource utilization, and service health without the overhead of complex monitoring frameworks.
 
 ## ✨ Features
 
@@ -22,7 +22,7 @@ Orange provides a Terminal User Interface (TUI) to visualize critical system met
 ## 📋 Requirements
 
 ### Required
-- **Bash 4+** [1](#2-0) 
+- **Bash 4+**
 - **awk** - for parsing `/proc` files
 - **iproute2** - for the `ip` command to get network info
 
@@ -58,15 +58,15 @@ The script will:
 - Hide the terminal cursor
 - Display a real-time TUI dashboard with system metrics
 - Update every 5 seconds
-- Clean up and restore cursor on exit (Ctrl+C) [2](#2-1) 
+- Clean up and restore cursor on exit (Ctrl+C)
 
 ## 🏥 Health Monitoring
 
 Orange performs automated health checks during every iteration:
-- **CPU**: Alert if usage exceeds 85% [3](#2-2) 
-- **RAM**: Alert if usage exceeds 85% [4](#2-3) 
-- **Disk**: Alert if root partition exceeds 90% [5](#2-4) 
-- **Docker**: Alert if the service is installed but stopped [6](#2-5) 
+- **CPU**: Alert if usage exceeds 85%
+- **RAM**: Alert if usage exceeds 85%
+- **Disk**: Alert if root partition exceeds 90%
+- **Docker**: Alert if the service is installed but stopped
 
 ## 📄 License
 
@@ -74,4 +74,4 @@ Orange is released under the **GNU General Public License Version 3 (GPLv3)**.
 
 ## 👨‍💻 Credits
 
-Created by [YunaHoshino](https://github.com/YunaHoshino) [7](#2-6) 
+Created by [YunaHoshino](https://github.com/YunaHoshino)
