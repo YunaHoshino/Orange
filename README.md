@@ -72,6 +72,6 @@ Orange performs automated health checks during every iteration:
 
 Orange is released under the **GNU General Public License Version 3 (GPLv3)**.
 
-## 👨‍💻 Credits
+## 👩🏻‍💻 Credits
 
 Created by [YunaHoshino](https://github.com/YunaHoshino)
